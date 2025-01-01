@@ -6,7 +6,7 @@ ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 
 # Copy your WAR file into the Tomcat webapps directory
-COPY RiddleHome.war /usr/local/tomcat/webapps/
+COPY dist/RiddleHome.war /usr/local/tomcat/webapps/
 
 # Expose the default Tomcat port
 EXPOSE 8080
