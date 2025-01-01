@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: ivory;
+    border: 5px solid burlywood;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Algerian', serif;
+    color: darkblue;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
