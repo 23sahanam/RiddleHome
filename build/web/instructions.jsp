@@ -25,7 +25,7 @@
         </form>
 
         <!-- Button to Start Game -->
-        <form action="game" method="get">
+        <form action="game.jsp" method="get">
             <button type="submit">Start Game</button>
         </form>
     </div>
